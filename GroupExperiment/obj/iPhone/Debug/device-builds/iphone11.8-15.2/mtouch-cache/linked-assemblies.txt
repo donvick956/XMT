@@ -1,0 +1,5 @@
+RemoveDynamicRegistrar:true
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/device-builds/iphone11.8-15.2/GroupExperiment.app:/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-cache/1-Link/GroupExperiment.exe
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/device-builds/iphone11.8-15.2/GroupExperiment.app:/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-cache/1-Link/mscorlib.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/device-builds/iphone11.8-15.2/GroupExperiment.app:/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/device-builds/iphone11.8-15.2/GroupExperiment.app:/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-cache/1-Link/System.dll

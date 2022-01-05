@@ -1,0 +1,29 @@
+# Version: 15.4.0.0 (xcode13.2: 8fc41ae82)
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mtouch/mtouch.exe \
+	--debug \
+	--sgen-conc \
+	'/target-framework:Xamarin.iOS,Version=v1.0' \
+	--http-message-handler=NSUrlSessionHandler \
+	--cache=/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-cache \
+	--root-assembly=/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/GroupExperiment.exe \
+	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	--targetver=15.2 \
+	--dev=/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhone/Debug/device-builds/iphone11.8-15.2/GroupExperiment.app \
+	--executable=GroupExperiment \
+	--linksdkonly \
+	--sdk=15.2 \
+	--aot-options=-O=-float32 \
+	--abi=arm64 \
+	--symbollist=/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/mtouch-symbols.list \
+	--dsym=no \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--reference=/Users/wemabank/.nuget/packages/xamarin.essentials/1.7.0/lib/xamarinios10/Xamarin.Essentials.dll \
+	@/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhone/Debug/device-builds/iphone11.8-15.2/response-file.rsp \

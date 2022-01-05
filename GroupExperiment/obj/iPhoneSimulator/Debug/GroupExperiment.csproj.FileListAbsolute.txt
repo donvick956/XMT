@@ -1,0 +1,32 @@
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/GroupExperiment.exe
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/GroupExperiment.pdb
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Net.Http.Formatting.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Newtonsoft.Json.Bson.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.IO.Compression.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Security.Cryptography.Algorithms.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Security.Cryptography.Encoding.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/System.Security.Cryptography.X509Certificates.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/actool/_PartialAppManifest.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/coremlc/_PartialAppManifest.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/_ProcessedBundleResourcesPath.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/_ProcessedContentPath.items
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/optimized/
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.csproj.CoreCompileInputs.cache
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.csproj.CopyComplete
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.exe
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.pdb

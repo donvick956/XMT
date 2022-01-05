@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-haX-D0-DcR.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-haX-D0-DcR.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-0Id-ae-PSB.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-0Id-ae-PSB.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-voF-fN-otM.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-voF-fN-otM.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/sdZ-fM-DB7-view-VCQ-wW-2gA.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/sdZ-fM-DB7-view-VCQ-wW-2gA.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/haX-D0-DcR-view-XSY-t9-TbN.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/haX-D0-DcR-view-XSY-t9-TbN.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/nGY-HB-AES-view-aKW-IH-K4g.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/nGY-HB-AES-view-aKW-IH-K4g.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/voF-fN-otM-view-5h1-vj-5vC.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/voF-fN-otM-view-5h1-vj-5vC.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-nGY-HB-AES.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-nGY-HB-AES.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/0Id-ae-PSB-view-Jhu-7i-gwG.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/0Id-ae-PSB-view-Jhu-7i-gwG.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-ZGU-cu-l2u.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-ZGU-cu-l2u.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UIViewController-sdZ-fM-DB7.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UIViewController-sdZ-fM-DB7.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/UINavigationController-yDK-qO-Q67.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/UINavigationController-yDK-qO-Q67.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc/ZGU-cu-l2u-view-CxM-kp-3E6.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>Main.storyboardc/ZGU-cu-l2u-view-CxM-kp-3E6.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>
