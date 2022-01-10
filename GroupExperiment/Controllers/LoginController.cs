@@ -7,6 +7,8 @@ using CoreGraphics;
 using EventKit;
 using Foundation;
 using GroupExperiment.Modules;
+using GroupExperiment.Modules.Utils;
+using Newtonsoft.Json;
 using Security;
 using UIKit;
 
@@ -16,25 +18,51 @@ namespace GroupExperiment
 	{
         //global variables
         UIImageView imageIcon = new UIImageView();
-        MyAlerts alerter = new MyAlerts();
 
         //web service tools
         HttpClient client;
-        HttpClientHandler insecureHandler;  //because Toyin's API has a scam certificate
+        //HttpClientHandler insecureHandler;  //because Toyin's API has a scam certificate
+
+        //variables for segue
+        public string userName;
+        public string accType;
+        public string accNumber;
+        public double accBalance;
+
+        public string newEmail;
 
 
         public LoginController (IntPtr handle) : base (handle)
 		{
-            insecureHandler = GetInsecureHandler();
-            client = new HttpClient(insecureHandler);
+            //insecureHandler = GetInsecureHandler();
+            client = new HttpClient(MyUtils.GetInsecureHandler());
 		}
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
 
+            MyUtils.ResignResponders(View);
+
+            MyUtils.AddTextFieldShadow(emailTextField);
+            MyUtils.AddTextFieldShadow(passwordTextField);
+
+            //set values from user defaults
             string mail = NSUserDefaults.StandardUserDefaults.StringForKey("Usermail");
-            emailTextField.Text = mail;
+            if (!string.IsNullOrEmpty(mail))
+            {
+                emailTextField.Text = mail;
+            }
+            string password = NSUserDefaults.StandardUserDefaults.StringForKey("UserPass");
+            if (!string.IsNullOrEmpty(password))
+            {
+                passwordTextField.Text = password;
+            }
+
+            if (!string.IsNullOrEmpty(newEmail))
+            {
+                emailTextField.Text = newEmail;
+            }
 
             loginBtn.TouchUpInside += LoginBtn_TouchUpInside;
 
@@ -72,12 +100,16 @@ namespace GroupExperiment
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             base.PrepareForSegue(segue, sender);
+
             if(segue.Identifier == "toDashboard")
             {
                 var dashboard = segue.DestinationViewController as DashboardController;
                 if(dashboard != null)
                 {
-                    dashboard.userName = "Lax";
+                    dashboard.userName = userName;
+                    dashboard.accBalance = accBalance;
+                    dashboard.accType = accType;
+                    dashboard.accNumber = accNumber;
                 }
             }
         }
@@ -91,7 +123,7 @@ namespace GroupExperiment
         {
             if (String.IsNullOrWhiteSpace(emailTextField.Text) || String.IsNullOrWhiteSpace(passwordTextField.Text))
             {
-                alerter.ShowSimpleAlert("Empty Field", "Fields cannot be empty",this);
+                MyUtils.ShowSimpleAlert("Empty Field", "Fields cannot be empty",this);
             }
             else
             {
@@ -101,40 +133,49 @@ namespace GroupExperiment
 
         public async Task CheckUser()
         {
+            activityBackgroundView.Hidden = false;
+            indicator.Hidden = false;
+            indicator.StartAnimating();
+
             UserLogin user = new UserLogin(emailTextField.Text,passwordTextField.Text);
 
-            string uri = "https://localhost:5001/Customers/login";
-            HttpResponseMessage message = await client.PostAsJsonAsync(uri, user);
+            string url = "https://localhost:5001/Customers/login";
+            string url2 = "https://xmtapi.azurewebsites.net/customers/login";
 
-            var something = await message.Content.ReadAsStringAsync();
-            Console.WriteLine(something);
-            InvokeOnMainThread(() =>
-            {
-                if (message.IsSuccessStatusCode)
-                {
-                    NSUserDefaults.StandardUserDefaults.SetString(emailTextField.Text, "Usermail");
-                    PerformSegue("toDashboard", null);
-                }
-                else
-                {
-                    alerter.ShowSimpleAlert("Abeg getat!", "Ivalid Email or password!", this);
-                }
-            }); 
-        }
+            //api call usng httpClient
+            HttpResponseMessage response = await client.PostAsJsonAsync(url, user);
 
-        public HttpClientHandler GetInsecureHandler()
-        {
-            HttpClientHandler handler = new HttpClientHandler();
-            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) =>
+            var responseContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(responseContent);
+
+            if (response.IsSuccessStatusCode)
             {
-                if (cert.Issuer.Equals("CN=localhost"))
-                    return true;
-                return errors == System.Net.Security.SslPolicyErrors.None;
-            };
-            return handler;
+                Customer customer = JsonConvert.DeserializeObject<Customer>(responseContent);
+
+                //for later use
+                Commonclass.ActiveAccount = customer;
+
+                userName = customer.FirstName;
+                accBalance = customer.AccountBalance;
+                accType = customer.AccountType;
+                accNumber = customer.AccountNumber;
+
+                NSUserDefaults.StandardUserDefaults.SetString(emailTextField.Text, "Usermail");
+                NSUserDefaults.StandardUserDefaults.SetString(passwordTextField.Text, "UserPass");
+
+                indicator.StopAnimating();
+                activityBackgroundView.Hidden = true;
+                PerformSegue("toDashboard", null);
+            }
+            else
+            {
+                MyUtils.ShowSimpleAlert("Abeg getat!", "Ivalid Email or password!", this);
+                indicator.StopAnimating();
+            }
         }
     }
 
+    //DTO for user login
     public class UserLogin
     {
         public string Email { get; set; }

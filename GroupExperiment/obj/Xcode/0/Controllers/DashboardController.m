@@ -9,6 +9,9 @@
 
 @implementation DashboardController
 
+@synthesize accBalanceLabel = _accBalanceLabel;
+@synthesize accNumberLabel = _accNumberLabel;
+@synthesize accTypeLabel = _accTypeLabel;
 @synthesize userCardView = _userCardView;
 @synthesize userNameLabel = _userNameLabel;
 

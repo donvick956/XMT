@@ -9,6 +9,9 @@
 
 @implementation CreateGroupController
 
+@synthesize addNewGroupBtn = _addNewGroupBtn;
 @synthesize createGroupBtn = _createGroupBtn;
+@synthesize createGroupLabel = _createGroupLabel;
+@synthesize groupsTable = _groupsTable;
 
 @end

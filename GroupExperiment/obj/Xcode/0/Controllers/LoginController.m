@@ -9,8 +9,10 @@
 
 @implementation LoginController
 
+@synthesize activityBackgroundView = _activityBackgroundView;
 @synthesize alatlogo = _alatlogo;
 @synthesize emailTextField = _emailTextField;
+@synthesize indicator = _indicator;
 @synthesize loginBtn = _loginBtn;
 @synthesize passwordTextField = _passwordTextField;
 

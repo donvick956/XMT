@@ -13,10 +13,16 @@ namespace GroupExperiment
 	partial class LoginController
 	{
 		[Outlet]
+		UIKit.UIView activityBackgroundView { get; set; }
+
+		[Outlet]
 		UIKit.UIImageView alatlogo { get; set; }
 
 		[Outlet]
 		UIKit.UITextField emailTextField { get; set; }
+
+		[Outlet]
+		UIKit.UIActivityIndicatorView indicator { get; set; }
 
 		[Outlet]
 		UIKit.UIButton loginBtn { get; set; }
@@ -26,9 +32,9 @@ namespace GroupExperiment
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (loginBtn != null) {
-				loginBtn.Dispose ();
-				loginBtn = null;
+			if (alatlogo != null) {
+				alatlogo.Dispose ();
+				alatlogo = null;
 			}
 
 			if (emailTextField != null) {
@@ -36,14 +42,24 @@ namespace GroupExperiment
 				emailTextField = null;
 			}
 
+			if (loginBtn != null) {
+				loginBtn.Dispose ();
+				loginBtn = null;
+			}
+
 			if (passwordTextField != null) {
 				passwordTextField.Dispose ();
 				passwordTextField = null;
 			}
 
-			if (alatlogo != null) {
-				alatlogo.Dispose ();
-				alatlogo = null;
+			if (indicator != null) {
+				indicator.Dispose ();
+				indicator = null;
+			}
+
+			if (activityBackgroundView != null) {
+				activityBackgroundView.Dispose ();
+				activityBackgroundView = null;
 			}
 		}
 	}

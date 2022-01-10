@@ -125,26 +125,10 @@
         <ImageAsset Include="Resources\Assets.xcassets\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\woman.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\woman.imageset\woman.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\alatlogo.imageset\alatlogo.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\alatlogo.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\alatlogo.imageset\alatlogo3x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\alatlogo.imageset\alatlogo2x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\woman.imageset\woman3x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\woman.imageset\woman2x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\line.imageset\Rectangle 15.png" />
         <ImageAsset Include="Resources\Assets.xcassets\line.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\Group 22%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\Group 22%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\Group 22%401x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\Group 41%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\Group 41%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\Group 41.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\Group 23%401x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\Group 23%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\Group 23%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\hide.imageset\el_eye-close%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\hide.imageset\el_eye-close.png" />
         <ImageAsset Include="Resources\Assets.xcassets\hide.imageset\el_eye-close%403x.png" />
@@ -153,12 +137,6 @@
         <ImageAsset Include="Resources\Assets.xcassets\show.imageset\el_eye-open%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\show.imageset\el_eye-open.png" />
         <ImageAsset Include="Resources\Assets.xcassets\show.imageset\el_eye-open%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profile-circled-svgrepo-com 1%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profile-circled-svgrepo-com 1%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profile-circled-svgrepo-com 1.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\card.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\sendmoney.imageset\Group 45%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\sendmoney.imageset\Group 45%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\sendmoney.imageset\Contents.json" />
@@ -175,10 +153,6 @@
         <ImageAsset Include="Resources\Assets.xcassets\cash.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\cash.imageset\Group 5%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\cash.imageset\Group 5%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\Group 1.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\Group 1%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\Group 1%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\house.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\house.imageset\Group 44%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\house.imageset\Group 44%402x.png" />
@@ -191,10 +165,6 @@
         <ImageAsset Include="Resources\Assets.xcassets\moneybag.imageset\Vector%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\moneybag.imageset\Vector.png" />
         <ImageAsset Include="Resources\Assets.xcassets\moneybag.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\iconoir_bell-notification%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\iconoir_bell-notification%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\iconoir_bell-notification.png" />
         <ImageAsset Include="Resources\Assets.xcassets\deals.imageset\Group 47%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\deals.imageset\Group 47%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\deals.imageset\Contents.json" />
@@ -203,24 +173,63 @@
         <ImageAsset Include="Resources\Assets.xcassets\lifestyle.imageset\Group 46%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\lifestyle.imageset\Group 46%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\lifestyle.imageset\Group 46.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\Group 3.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\Group 3%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\Group 3%402x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\Contents.json" />
         <ImageAsset Include="Resources\Assets.xcassets\beneficiaries.imageset\clarity_group-line%402x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\beneficiaries.imageset\clarity_group-line%403x.png" />
         <ImageAsset Include="Resources\Assets.xcassets\beneficiaries.imageset\clarity_group-line.png" />
         <ImageAsset Include="Resources\Assets.xcassets\beneficiaries.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\Group 52%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\succesful.imageset\succesful%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\succesful.imageset\succesful.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\succesful.imageset\succesful%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\succesful.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\failed.imageset\failed.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\failed.imageset\failed%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\failed.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\failed.imageset\failed%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\thunder%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\thunder%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\thunder%401x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\thunder.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\pot.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\pot%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\pot.imageset\pot%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\newlogo.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\newlogo%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\newlogo%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\newlogo.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\card.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\card%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\card%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\card.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\home%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\home%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\home.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\home.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profileicon%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profileicon%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\profileicon.imageset\profileicon.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\folder%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\folder%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\folder.imageset\folder%401x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\loadlogo.png" />
         <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\Contents.json" />
-        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\Group 52%403x.png" />
-        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\Group 52.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\loadlogo%402x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\loadlogo.imageset\loadlogo%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\bell.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\bell%403x.png" />
+        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\Contents.json" />
+        <ImageAsset Include="Resources\Assets.xcassets\bell.imageset\bell%402x.png" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
         <Folder Include="Controllers\" />
         <Folder Include="Modules\" />
         <Folder Include="ModelViews\" />
+        <Folder Include="Modules\Utils\" />
+        <Folder Include="Modules\TableSources\" />
+        <Folder Include="Modules\Models\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -250,12 +259,10 @@
         <Compile Include="Controllers\CreateGroupController.designer.cs">
           <DependentUpon>CreateGroupController.cs</DependentUpon>
         </Compile>
-        <Compile Include="Modules\AlatUser.cs" />
         <Compile Include="Controllers\GroupController.cs" />
         <Compile Include="Controllers\GroupController.designer.cs">
           <DependentUpon>GroupController.cs</DependentUpon>
         </Compile>
-        <Compile Include="Modules\MyAlerts.cs" />
         <Compile Include="Controllers\SummaryController.cs" />
         <Compile Include="Controllers\SummaryController.designer.cs">
           <DependentUpon>SummaryController.cs</DependentUpon>
@@ -264,13 +271,23 @@
         <Compile Include="ModelViews\CustomRecipientCell.designer.cs">
           <DependentUpon>CustomRecipientCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="Modules\GroupTableSource.cs" />
         <Compile Include="Controllers\SuccessStatusController.cs" />
         <Compile Include="Controllers\SuccessStatusController.designer.cs">
           <DependentUpon>SuccessStatusController.cs</DependentUpon>
         </Compile>
-        <Compile Include="Modules\GroupsTableSource.cs" />
-        <Compile Include="Modules\BeneficiaryGroup.cs" />
+        <Compile Include="Modules\TableSources\GroupsTableSource.cs" />
+        <Compile Include="Modules\TableSources\GroupTableSource.cs" />
+        <Compile Include="Modules\Utils\Commonclass.cs" />
+        <Compile Include="Modules\Models\Customer.cs" />
+        <Compile Include="Modules\Models\BeneficiaryGroup.cs" />
+        <Compile Include="Modules\Utils\MyUtils.cs" />
+        <Compile Include="Modules\Models\Recipient.cs" />
+        <Compile Include="Modules\Utils\NetworkUtil.cs" />
+        <Compile Include="Modules\Models\MyPickerModel.cs" />
+        <Compile Include="Controllers\GetStartedController.cs" />
+        <Compile Include="Controllers\GetStartedController.designer.cs">
+          <DependentUpon>GetStartedController.cs</DependentUpon>
+        </Compile>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

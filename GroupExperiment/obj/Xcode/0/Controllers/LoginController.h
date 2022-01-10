@@ -10,15 +10,21 @@
 
 
 @interface LoginController : UIViewController {
+	UIView *_activityBackgroundView;
 	UIImageView *_alatlogo;
 	UITextField *_emailTextField;
+	UIActivityIndicatorView *_indicator;
 	UIButton *_loginBtn;
 	UITextField *_passwordTextField;
 }
 
+@property (nonatomic, retain) IBOutlet UIView *activityBackgroundView;
+
 @property (nonatomic, retain) IBOutlet UIImageView *alatlogo;
 
 @property (nonatomic, retain) IBOutlet UITextField *emailTextField;
+
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *indicator;
 
 @property (nonatomic, retain) IBOutlet UIButton *loginBtn;
 

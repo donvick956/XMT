@@ -10,10 +10,17 @@
 @implementation GroupController
 
 @synthesize addRecipientBtn = _addRecipientBtn;
+@synthesize alertBackgroundView = _alertBackgroundView;
+@synthesize alertView = _alertView;
+@synthesize amountTextField = _amountTextField;
+@synthesize bankTextField = _bankTextField;
+@synthesize cancelAlertBtn = _cancelAlertBtn;
 @synthesize chooseFromBeneficiaryBtn = _chooseFromBeneficiaryBtn;
 @synthesize groupTableView = _groupTableView;
+@synthesize recipAcctTextField = _recipAcctTextField;
 @synthesize recipientCountLabel = _recipientCountLabel;
 @synthesize totalAmountLabel = _totalAmountLabel;
 @synthesize transferBtn = _transferBtn;
+@synthesize verifyAddButton = _verifyAddButton;
 
 @end

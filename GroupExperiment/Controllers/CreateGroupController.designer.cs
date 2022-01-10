@@ -13,7 +13,13 @@ namespace GroupExperiment
 	partial class CreateGroupController
 	{
 		[Outlet]
+		UIKit.UIBarButtonItem addNewGroupBtn { get; set; }
+
+		[Outlet]
 		UIKit.UIButton createGroupBtn { get; set; }
+
+		[Outlet]
+		UIKit.UILabel createGroupLabel { get; set; }
 
 		[Outlet]
 		UIKit.UITableView groupsTable { get; set; }
@@ -25,9 +31,19 @@ namespace GroupExperiment
 				createGroupBtn = null;
 			}
 
+			if (createGroupLabel != null) {
+				createGroupLabel.Dispose ();
+				createGroupLabel = null;
+			}
+
 			if (groupsTable != null) {
 				groupsTable.Dispose ();
 				groupsTable = null;
+			}
+
+			if (addNewGroupBtn != null) {
+				addNewGroupBtn.Dispose ();
+				addNewGroupBtn = null;
 			}
 		}
 	}

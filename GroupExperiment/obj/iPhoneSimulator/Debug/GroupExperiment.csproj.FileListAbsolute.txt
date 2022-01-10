@@ -26,6 +26,7 @@
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/_ProcessedBundleResourcesPath.items
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/_ProcessedContentPath.items
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-15.2/optimized/
+/Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.csproj.AssemblyReference.cache
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.csproj.CoreCompileInputs.cache
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.csproj.CopyComplete
 /Users/wemabank/Projects/GroupExperiment/GroupExperiment/obj/iPhoneSimulator/Debug/GroupExperiment.exe

@@ -10,9 +10,18 @@
 
 
 @interface DashboardController : UIViewController {
+	UILabel *_accBalanceLabel;
+	UILabel *_accNumberLabel;
+	UILabel *_accTypeLabel;
 	UIView *_userCardView;
 	UILabel *_userNameLabel;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *accBalanceLabel;
+
+@property (nonatomic, retain) IBOutlet UILabel *accNumberLabel;
+
+@property (nonatomic, retain) IBOutlet UILabel *accTypeLabel;
 
 @property (nonatomic, retain) IBOutlet UIView *userCardView;
 

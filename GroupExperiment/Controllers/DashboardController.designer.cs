@@ -13,6 +13,15 @@ namespace GroupExperiment
 	partial class DashboardController
 	{
 		[Outlet]
+		UIKit.UILabel accBalanceLabel { get; set; }
+
+		[Outlet]
+		UIKit.UILabel accNumberLabel { get; set; }
+
+		[Outlet]
+		UIKit.UILabel accTypeLabel { get; set; }
+
+		[Outlet]
 		UIKit.UIView userCardView { get; set; }
 
 		[Outlet]
@@ -28,6 +37,21 @@ namespace GroupExperiment
 			if (userNameLabel != null) {
 				userNameLabel.Dispose ();
 				userNameLabel = null;
+			}
+
+			if (accBalanceLabel != null) {
+				accBalanceLabel.Dispose ();
+				accBalanceLabel = null;
+			}
+
+			if (accNumberLabel != null) {
+				accNumberLabel.Dispose ();
+				accNumberLabel = null;
+			}
+
+			if (accTypeLabel != null) {
+				accTypeLabel.Dispose ();
+				accTypeLabel = null;
 			}
 		}
 	}

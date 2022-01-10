@@ -3,6 +3,7 @@
 using System;
 
 using Foundation;
+using GroupExperiment.Modules.Utils;
 using UIKit;
 
 namespace GroupExperiment
@@ -24,7 +25,7 @@ namespace GroupExperiment
 			recipNameLabel.Text = recipname;
 			recipAccNumLabel.Text = recipaccnum;
 			recipBankLabel.Text = recipbank;
-			recipAmountLabel.Text = "₦" + recipamount.ToString("0.###");
+			recipAmountLabel.Text = "₦" + recipamount.ToString("N0");
         }
 	}
 }

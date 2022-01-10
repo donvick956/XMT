@@ -4,23 +4,43 @@ using System;
 using System.Collections.Generic;
 using Foundation;
 using GroupExperiment.Modules;
+using GroupExperiment.Modules.Models;
+using GroupExperiment.Modules.Utils;
+using Newtonsoft.Json;
 using UIKit;
+
+//Commenting out old correct code to try new things
 
 namespace GroupExperiment
 {
 	public partial class CreateGroupController : UIViewController
 	{
-        MyAlerts alerter = new MyAlerts();
-        string groupName;
+        //MyAlerts alerter = new MyAlerts();
+        //public string groupName;
+        //public List<Recipient> groupRecipients;
 
-        List<BeneficiaryGroup> beneficiaryGroups;
+        public int indexNumber;
+
+        //List<BeneficiaryGroup> beneficiaryGroups;
 
         public CreateGroupController (IntPtr handle) : base (handle)
 		{
-            beneficiaryGroups = new List<BeneficiaryGroup>();
-            beneficiaryGroups.Add (new BeneficiaryGroup("My guys"));
+            //beneficiaryGroups = new List<BeneficiaryGroup>();
 		}
-        
+
+        //reload table of saved beneficiary groups anytime screen shows
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
+            if(Commonclass.BeneficiaryGroups.Count != 0)
+            {
+                groupsTable.Hidden = false;
+                groupsTable.ReloadData();
+            }
+            indexNumber = Commonclass.BeneficiaryGroups.Count;
+        }
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -28,29 +48,45 @@ namespace GroupExperiment
             NavigationController.NavigationBarHidden = false;
             Title = "Groups";
 
-            groupsTable.Source = new GroupsTableSource(beneficiaryGroups);
+            groupsTable.Source = new GroupsTableSource(Commonclass.BeneficiaryGroups,this);
 
             createGroupBtn.TouchUpInside += CreateGroupBtn_TouchUpInside;
+
+            addNewGroupBtn.Clicked += AddNewGroupBtn_Clicked;
+        }
+
+        private void AddNewGroupBtn_Clicked(object sender, EventArgs e)
+        {
+            CreateNewGroup();
         }
 
         private void CreateGroupBtn_TouchUpInside(object sender, EventArgs e)
         {
-            alerter.ShowAlertWithTextField("Create new group", "Enter group name", this, (UIAlertAction obj) =>
+            CreateNewGroup();
+        }
+
+        //create a new beneficiary group and add to list of beneficiary groups
+        public void CreateNewGroup()
+        {
+            MyUtils.ShowAlertWithTextField("Create new group", "Enter group name", this, (UIAlertAction obj) =>
             {
-                if (String.IsNullOrWhiteSpace(alerter.alertController.TextFields[0].Text))
+                if (String.IsNullOrWhiteSpace(MyUtils.alertController.TextFields[0].Text))
                 {
-                    alerter.ShowSimpleAlert("Empty fields", "Group name cannot be empty", this);
+                    MyUtils.ShowSimpleAlert("Behave yourself", "Group name cannot be empty", this);
                 }
                 else
                 {
-                    groupName = alerter.alertController.TextFields[0].Text;
+                    string groupName;
+                    groupName = MyUtils.alertController.TextFields[0].Text;
                     Console.WriteLine(groupName);
+                    Commonclass.BeneficiaryGroups.Add(new BeneficiaryGroup(groupName));
 
                     PerformSegue("toGroupController", null);
                 }
             });
         }
 
+        //send name of created group
         public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             base.PrepareForSegue(segue, sender);
@@ -60,7 +96,9 @@ namespace GroupExperiment
                 var groupPage = segue.DestinationViewController as GroupController;
                 if(groupPage != null)
                 {
-                    groupPage.groupName = groupName;
+                    //groupPage.groupName = groupName;
+                    //groupPage.groupRecipients = groupRecipients;
+                    groupPage.indexNumber = indexNumber;
                 }
             }
         }

@@ -10,9 +10,18 @@
 
 
 @interface CreateGroupController : UIViewController {
+	UIBarButtonItem *_addNewGroupBtn;
 	UIButton *_createGroupBtn;
+	UILabel *_createGroupLabel;
+	UITableView *_groupsTable;
 }
 
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *addNewGroupBtn;
+
 @property (nonatomic, retain) IBOutlet UIButton *createGroupBtn;
+
+@property (nonatomic, retain) IBOutlet UILabel *createGroupLabel;
+
+@property (nonatomic, retain) IBOutlet UITableView *groupsTable;
 
 @end
